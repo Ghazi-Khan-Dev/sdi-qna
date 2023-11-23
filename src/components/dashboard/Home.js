@@ -4,7 +4,7 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 import "./home.css";
 import Header from "./Header";
-import QuestionAnswer from "../question-answer/QuestionAnswer";
+import QuestionAnswerContainer from "../question-answer/QuestionAnswerContainer";
 
 const palceholderForSearch =`type the questions`;
 
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         {/* question-answer section */}
-        <QuestionAnswer />
+        <QuestionAnswerContainer questionAnswerList = {[1]}/>
       </div>
     </>
   );

@@ -1,0 +1,60 @@
+{
+  id
+  tags        [string]
+  category    string
+
+  question {
+    question    string
+    status     [answered OR unanswered]
+    author      string
+  }
+  answer {
+    answer    string
+    author    string
+    reference [string]
+  }
+}
+
+categories -
+  diet,
+  finance,
+  health & medical,
+  marriage/dating,
+
+
+
+  {
+    "id": "",
+    "tags":  [],
+    "category": "",
+
+    "question": {
+      "question": "",
+      "status": "",
+      "author":""
+    },
+    "answer": {
+      "answer": "",
+      "author": "",
+      "reference": [""]
+    }
+  }
+
+  [
+    {
+      "id": "",
+      "tags":  [],
+      "category": "",
+
+      "question": {
+        "question": "",
+        "status": "",
+        "author":""
+      },
+      "answer": {
+        "answer": "",
+        "author": "",
+        "reference": [""]
+      }
+    }
+  ]
