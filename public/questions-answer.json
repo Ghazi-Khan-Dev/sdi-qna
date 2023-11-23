@@ -1,0 +1,18 @@
+[
+  {
+    "id": "",
+    "tags":  [],
+    "category": "",
+
+    "question": {
+      "question": "",
+      "status": "",
+      "author":""
+    },
+    "answer": {
+      "answer": "",
+      "author": "",
+      "reference": [""]
+    }
+  }
+]
