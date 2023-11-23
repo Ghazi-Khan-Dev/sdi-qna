@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sdi-qna/static/css/main.815f7615.chunk.css",
+    "main.js": "/sdi-qna/static/js/main.5bdb67be.chunk.js",
+    "main.js.map": "/sdi-qna/static/js/main.5bdb67be.chunk.js.map",
+    "runtime-main.js": "/sdi-qna/static/js/runtime-main.26326cc2.js",
+    "runtime-main.js.map": "/sdi-qna/static/js/runtime-main.26326cc2.js.map",
+    "static/js/2.194a92dc.chunk.js": "/sdi-qna/static/js/2.194a92dc.chunk.js",
+    "static/js/2.194a92dc.chunk.js.map": "/sdi-qna/static/js/2.194a92dc.chunk.js.map",
+    "static/js/3.cbce84d3.chunk.js": "/sdi-qna/static/js/3.cbce84d3.chunk.js",
+    "static/js/3.cbce84d3.chunk.js.map": "/sdi-qna/static/js/3.cbce84d3.chunk.js.map",
+    "index.html": "/sdi-qna/index.html",
+    "precache-manifest.304ad5a662dd7298453c13e969257c2c.js": "/sdi-qna/precache-manifest.304ad5a662dd7298453c13e969257c2c.js",
+    "service-worker.js": "/sdi-qna/service-worker.js",
+    "static/css/main.815f7615.chunk.css.map": "/sdi-qna/static/css/main.815f7615.chunk.css.map",
+    "static/js/2.194a92dc.chunk.js.LICENSE.txt": "/sdi-qna/static/js/2.194a92dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26326cc2.js",
+    "static/js/2.194a92dc.chunk.js",
+    "static/css/main.815f7615.chunk.css",
+    "static/js/main.5bdb67be.chunk.js"
+  ]
+}
