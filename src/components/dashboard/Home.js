@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import ClearIcon from '@mui/icons-material/Clear';
 
 import "./home.css";
 import Header from "./Header";
 import QuestionAnswerContainer from "../question-answer/QuestionAnswerContainer";
+import { getParsedQuetionAnswer, getQuetionAnswerGroupByCategory } from "../../utils/helper";
 
 const palceholderForSearch =`type the questions`;
 
 const Home = () => {
+
+  const [quetionAnswer, setQuetionAnswer] = useState({});
+  const [questionAnswerGroupByCategory, setQuestionAnswerGroupByCategory] = useState({});
+
+
+  useEffect(() => {
+    const parsedQuetionAnswer = getParsedQuetionAnswer();
+    const questionAnsweritemGroupByCategory = getQuetionAnswerGroupByCategory(parsedQuetionAnswer);
+    setQuetionAnswer(parsedQuetionAnswer);
+    setQuestionAnswerGroupByCategory(questionAnsweritemGroupByCategory);
+
+  }, [])
   return (
     <>
       <Header />
@@ -27,7 +40,7 @@ const Home = () => {
         </div>
 
         {/* question-answer section */}
-        <QuestionAnswerContainer questionAnswerList = {[1]}/>
+        <QuestionAnswerContainer questionAnswerItems = {questionAnswerGroupByCategory} />
       </div>
     </>
   );

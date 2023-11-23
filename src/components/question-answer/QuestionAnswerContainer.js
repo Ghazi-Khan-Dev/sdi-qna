@@ -11,14 +11,14 @@ const NoQuestionAnswerAvailable = () => {
 };
 
 const QuestionAnswerContainer = (props) => {
-  const { questionAnswerList } = props;
+  const { questionAnswerItems } = props;
   return (
     <>
       <div className="question-answer-container">
-        {questionAnswerList.length === 0 ? (
+        {Object.keys(questionAnswerItems).length === 0 ? (
           <NoQuestionAnswerAvailable />
         ) : (
-          <Categories questionAnswerList={questionAnswerList}/>
+          <Categories questionAnswerItems={questionAnswerItems}/>
         )}
       </div>
     </>

@@ -1,11 +1,19 @@
 import React from "react";
+import Paper from '@mui/material/Paper';
+
+import './question-answer-items.css';
 
 const QuestionAnswer = (props) => {
-  const {a, p} = props.questionAnswerItem;
+  const {question, answer} = props.questionAnswerItem;
   return (
     <div>
-      <h3>{a}</h3>
-      <h3>{p}</h3>
+    <Paper elevation={3} className="question-answer-item">
+      <div className="question-answer-item-inner-container">
+        <span>
+        {question.statement}
+        </span>
+      </div>
+    </Paper>
     </div>
   );
 };

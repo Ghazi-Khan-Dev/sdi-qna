@@ -1,0 +1,7 @@
+.question-answer-item {
+  min-height: 3rem;
+}
+
+.question-answer-item-inner-container {
+  padding: .2rem;
+}

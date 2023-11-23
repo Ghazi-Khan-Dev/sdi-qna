@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "category": "finance",
+    "description": "finance related questions",
+    "tags":  ["finance", "life insurance"],
+
+    "question": {
+      "statement": "kya islam me life insurance jayaz hai ?",
+      "status": "answered",
+      "author":"admin"
+    },
+    "answer": {
+      "statement": "Ji nahi, islam me life insurance jayaz nahi hai.",
+      "author": "Mufti Rizwan Sahab",
+      "reference": [{"book-name": "b1", "chapter": "c1", "page": "p1", "publishedBy":"ph 1"}]
+    }
+  },
+  {
+    "id": "2",
+    "category": "finance",
+    "description": "finance related questions",
+    "tags":  ["finance", "life insurance"],
+
+    "question": {
+      "statement": "kya islam me life insurance jayaz hai ?",
+      "status": "answered",
+      "author":"admin"
+    },
+    "answer": {
+      "statement": "Ji nahi, islam me life insurance jayaz nahi hai.",
+      "author": "Mufti Rizwan Sahab",
+      "reference": [{"book-name": "b1", "chapter": "c1", "page": "p1", "publishedBy":"ph 1"}]
+    }
+  }
+]
