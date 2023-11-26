@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/sdi-qna/static/css/main.815f7615.chunk.css",
-    "main.js": "/sdi-qna/static/js/main.d743dd2a.chunk.js",
-    "main.js.map": "/sdi-qna/static/js/main.d743dd2a.chunk.js.map",
-    "runtime-main.js": "/sdi-qna/static/js/runtime-main.26326cc2.js",
-    "runtime-main.js.map": "/sdi-qna/static/js/runtime-main.26326cc2.js.map",
-    "static/js/2.7e74943f.chunk.js": "/sdi-qna/static/js/2.7e74943f.chunk.js",
-    "static/js/2.7e74943f.chunk.js.map": "/sdi-qna/static/js/2.7e74943f.chunk.js.map",
-    "static/js/3.cbce84d3.chunk.js": "/sdi-qna/static/js/3.cbce84d3.chunk.js",
-    "static/js/3.cbce84d3.chunk.js.map": "/sdi-qna/static/js/3.cbce84d3.chunk.js.map",
+    "main.css": "/sdi-qna/static/css/main.9951794d.chunk.css",
+    "main.js": "/sdi-qna/static/js/main.a3058d4c.chunk.js",
+    "main.js.map": "/sdi-qna/static/js/main.a3058d4c.chunk.js.map",
+    "runtime-main.js": "/sdi-qna/static/js/runtime-main.3b20cb55.js",
+    "runtime-main.js.map": "/sdi-qna/static/js/runtime-main.3b20cb55.js.map",
+    "static/js/2.3d3920e2.chunk.js": "/sdi-qna/static/js/2.3d3920e2.chunk.js",
+    "static/js/2.3d3920e2.chunk.js.map": "/sdi-qna/static/js/2.3d3920e2.chunk.js.map",
+    "static/js/3.d165d617.chunk.js": "/sdi-qna/static/js/3.d165d617.chunk.js",
+    "static/js/3.d165d617.chunk.js.map": "/sdi-qna/static/js/3.d165d617.chunk.js.map",
     "index.html": "/sdi-qna/index.html",
-    "precache-manifest.69c31b4cabe1395ccd6b20dba6202edc.js": "/sdi-qna/precache-manifest.69c31b4cabe1395ccd6b20dba6202edc.js",
+    "precache-manifest.82d16ab99db87fd11623e5755c5a29f1.js": "/sdi-qna/precache-manifest.82d16ab99db87fd11623e5755c5a29f1.js",
     "service-worker.js": "/sdi-qna/service-worker.js",
-    "static/css/main.815f7615.chunk.css.map": "/sdi-qna/static/css/main.815f7615.chunk.css.map",
-    "static/js/2.7e74943f.chunk.js.LICENSE.txt": "/sdi-qna/static/js/2.7e74943f.chunk.js.LICENSE.txt"
+    "static/css/main.9951794d.chunk.css.map": "/sdi-qna/static/css/main.9951794d.chunk.css.map",
+    "static/js/2.3d3920e2.chunk.js.LICENSE.txt": "/sdi-qna/static/js/2.3d3920e2.chunk.js.LICENSE.txt",
+    "static/media/bismillah.svg": "/sdi-qna/static/media/bismillah.e09ec57b.svg",
+    "static/media/sdi1-modified.svg": "/sdi-qna/static/media/sdi1-modified.d72d973f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26326cc2.js",
-    "static/js/2.7e74943f.chunk.js",
-    "static/css/main.815f7615.chunk.css",
-    "static/js/main.d743dd2a.chunk.js"
+    "static/js/runtime-main.3b20cb55.js",
+    "static/js/2.3d3920e2.chunk.js",
+    "static/css/main.9951794d.chunk.css",
+    "static/js/main.a3058d4c.chunk.js"
   ]
 }
