@@ -31,6 +31,5 @@ export const getQuetionAnswerGroupByCategory = (parsedQuetionAnswer) => {
       quetionAnswerGroupByCategory[category].questionAnswers.push(item);
     });
   }
-  console.log('parsedQuetionAnswer - ', quetionAnswerGroupByCategory);
   return quetionAnswerGroupByCategory;
 };

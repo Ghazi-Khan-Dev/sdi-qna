@@ -6,11 +6,15 @@ import "./home.css";
 import Header from "./Header";
 import QuestionAnswerContainer from "../question-answer/QuestionAnswerContainer";
 import { getParsedQuetionAnswer, getQuetionAnswerGroupByCategory } from "../../utils/helper";
+import { useDispatch } from "react-redux";
+import { setQAById } from "../../store/actions/QuestionAnswerAction";
 
 const palceholderForSearch =`type the questions`;
 
 const Home = () => {
 
+
+  const dispatch = useDispatch();
   const [quetionAnswer, setQuetionAnswer] = useState({});
   const [questionAnswerGroupByCategory, setQuestionAnswerGroupByCategory] = useState({});
 
@@ -20,6 +24,9 @@ const Home = () => {
     const questionAnsweritemGroupByCategory = getQuetionAnswerGroupByCategory(parsedQuetionAnswer);
     setQuetionAnswer(parsedQuetionAnswer);
     setQuestionAnswerGroupByCategory(questionAnsweritemGroupByCategory);
+
+
+    dispatch(setQAById(parsedQuetionAnswer));
 
   }, [])
   return (
